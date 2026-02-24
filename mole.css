@@ -15,7 +15,7 @@ margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
 
-background: url(soil.png);
+background: url("./soil.png");
 background-size: cover;
 border: 3px solid white;
 border-radius: 25px;
@@ -25,7 +25,8 @@ border-radius: 25px;
 #board div{
     width: 180px;
     height: 180px;
-    background-image: url(pipe.png);
+    background-image: url("./pipe.png");
     background-size: cover;
 
 }
+
