@@ -1,4 +1,6 @@
 let currMoleTile;
+let currPlantTile;
+
 
 
 window.onload = function(){
@@ -23,11 +25,22 @@ function getRandomTile() {
 }
 
 function setMole() {
+
+    if(currMoleTile){
+        currMoleTile.innerHTML ="";
+    }
+
     let mole = document.createElement("img");
     mole.src = "./monty-mole.png";
 
     let num = getRandomTile();
+    
     currMoleTile = document.getElementById(num);
     currMoleTile.appendChild(mole);
 
 }
+
+// function setPlantTile(){
+
+// }
+

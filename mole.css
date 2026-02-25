@@ -30,3 +30,8 @@ border-radius: 25px;
 
 }
 
+#board div image{
+    /* alll img tags inside the tile div tags  */
+    width: 100px;
+    height: 100px;
+}
